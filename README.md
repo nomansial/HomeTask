@@ -1,9 +1,7 @@
-# Selenium-Python-Example
+# HomeTask
 
 This repository contains the base setup of an UI testing project,
 using Python, Selenium Webdriver and Page Object Model pattern.
-
-A simple search in DuckDuckGo to check that results are displayed is used as example
 
 # Requirements
 
@@ -15,7 +13,7 @@ A simple search in DuckDuckGo to check that results are displayed is used as exa
 
 1. Download or clone the repository 
 2. Open a terminal
-3. Go to the project root directory "/selenium-python-example/".
+3. Go to the project root directory "/HomeTask/".
 4. Create a virtual environment: `py -m venv venv`
 5. Activate the virtual environment executing the following script: `.\venv\Scripts\activate`
 6. Execute the following command to download the necessary libraries:  `pip install -r requirements.txt`
@@ -23,7 +21,7 @@ A simple search in DuckDuckGo to check that results are displayed is used as exa
 # Test Execution
 
 1. Open a terminal
-2. From the project root directory run: `pytest -v --html=results/report.html`
+2. From the tests folder right click on test_search.py and run as shown in the video recording.
 
 # Configuration
 

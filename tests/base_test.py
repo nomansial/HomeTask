@@ -49,8 +49,12 @@ class BaseTest:
         else:
             raise Exception("Incorrect Browser")
 
+        self.driver.delete_all_cookies()
         self.driver.maximize_window()
-        self.wait = WebDriverWait(self.driver, 10)
+        self.wait = WebDriverWait(self.driver, 20)
+
+        self.driver.switch_to.active_element
+
         yield self.wait, self.driver
 
         if self.driver is not None:
